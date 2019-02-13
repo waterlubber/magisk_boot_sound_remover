@@ -1,7 +1,12 @@
-# Magisk Module Template
+# T-Mobile Boot Sound Remover
 
-**Update `README.md` if you want to submit your module to the online repo!** This `README.md` will be shown in a Webview dialog when a user taps your module in Magisk Manager, so make sure to place some information / changelog / notes here.
+This module simply removes the carrier boot sound from startup.
+It works by replacing `/system/media/audio/ui/PowerOn.ogg` with another sound file filled with silence.
 
-If you are not familiar with the Markdown syntax, you can start by experimenting on GitHub's online Markdown editor, which will let you preview before publishing. If you need more help, the [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) will be handy.
+#Compatibility
+This *should* work for most T-Mobile devices. I tested it on an LG V20 (H918) myself, but I don't see any reason why it wouldn't work with any other device.
 
-For more information about modules and repos, please check the [official documentation](https://topjohnwu.github.io/Magisk/)
+#Changelog
+
+##v1.0.0
+Initial Release
